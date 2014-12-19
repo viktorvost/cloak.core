@@ -26,10 +26,10 @@ var MyView = module.exports = View.extend({
 
 ## Cloak modules
 
-* [cloak.core](https://github.com/UmbraEngineering/cloak.core)
-* [cloak.view](https://github.com/UmbraEngineering/cloak.view)
-* [cloak.model](https://github.com/UmbraEngineering/cloak.model)
-* [cloak.router](https://github.com/UmbraEngineering/cloak.router)
+* [cloak.core](https://github.com/UmbraEngineering/cloak.core) - The cloak core: tiny, but used by all the cloak modules
+* [cloak.view](https://github.com/UmbraEngineering/cloak.view) - Provides the `View` class
+* [cloak.model](https://github.com/UmbraEngineering/cloak.model) - Provides the `Model` and `Collection` classes for handling data
+* [cloak.router](https://github.com/UmbraEngineering/cloak.router) - Provides the `Router` class for all you app routing needs
 
 
 
