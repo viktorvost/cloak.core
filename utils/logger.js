@@ -36,7 +36,7 @@ var Logger = module.exports = Class.extend({
 	// 
 	getLevel: function() {
 		return this.level;
-	}
+	},
 
 // --------------------------------------------------------
 
