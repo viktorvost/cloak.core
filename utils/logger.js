@@ -106,7 +106,7 @@ var Logger = module.exports = Class.extend({
 			time: time()
 		});
 		if (level <= this.level) {
-			log('[' + levels[level] + '] (' + this.module + '): ' + message);
+			log(level, '[' + levels[level] + '] (' + this.module + '): ' + message);
 		}
 	}
 
