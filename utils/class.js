@@ -84,7 +84,11 @@ Class.extend = function(prop) {
 	function Class() {
 		// All construction is actually done in the init method
 		if (! initializing && this.init) {
-			this.init.apply(this, arguments);
+			var result = this.init.apply(this, arguments);
+			// Allow returning an alternate value
+			if (result) {
+				return result;
+			}
 		}
 	}
  

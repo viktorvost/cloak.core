@@ -30,6 +30,11 @@ var MyView = module.exports = View.extend({
 * [cloak.view](https://github.com/UmbraEngineering/cloak.view) - Provides the `View` class
 * [cloak.model](https://github.com/UmbraEngineering/cloak.model) - Provides the `Model` and `Collection` classes for handling data
 * [cloak.router](https://github.com/UmbraEngineering/cloak.router) - Provides the `Router` class for all you app routing needs
+* [cloak.controller](https://github.com/UmbraEngineering/cloak.controller) - Provides a super-minimal `Controller` class for transitioning displaying views
+* [cloak.xhr](https://github.com/UmbraEngineering/cloak.xhr) - Provides an easy interface for making HTTP requests by `XMLHttpRequest`; Also provides an interface to define XHR methods on the `Model` and `Controller` classes
+* [cloak.localstorage](https://github.com/UmbraEngineering/cloak.localstorage) - Provides an easy interface for storing data in local storage; Also provides an interface to use local storage as your main app storage for `Model` and `Collection` classes
+* [cloak.i18n](https://github.com/UmbraEngineering/cloak.i18n) - Provides a simple internationalization interface for storing translated phrases and determining a client's language
+* [cloak.socketio](https://github.com/UmbraEngineering/cloak.socketio) - Provides a [socket.io](http://socket.io) interface for models based on the [dagger.js](http://www.daggerjs.com) websocket api
 
 
 

@@ -15,6 +15,8 @@
   "dependencies": {
     "merge-recursive": "0.0.3",
     "promise-es6": "^0.1.0",
-    "desandro-matches-selector": "^1.0.2"
+    "desandro-matches-selector": "^1.0.2",
+    "eventemitter2": "^0.4.14",
+    "object-search": "0.0.5"
   }
 }

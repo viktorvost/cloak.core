@@ -7,3 +7,14 @@
 // stuff.
 // 
 
+var conf = require('../config').module('core', {
+
+	// EventEmitter config
+	ee: {
+		wildcard: false,
+		delimiter: '::',
+		newListener: false,
+		maxListeners: 20
+	}
+
+});
