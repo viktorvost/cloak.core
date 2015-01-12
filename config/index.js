@@ -12,7 +12,7 @@ exports.module = function(name, defaults) {
 		config[name] = new ConfigModule(name, defaults);
 	} else if (defaults) {
 		var conf = config[name];
-		conf.config = merge({ }, defaults, conf.config);
+		conf.config = merge({ }, defaults || { }, conf.config || { });
 	}
 
 	return config[name];
