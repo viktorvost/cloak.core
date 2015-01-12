@@ -1,2 +1,2 @@
 
-module.exports = require('merge');
+module.exports = require('merge-recursive');
