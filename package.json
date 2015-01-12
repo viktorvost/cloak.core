@@ -6,12 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UmbraEngineering/cloak.controller"
+  },
   "keywords": [
     "cloak",
     "browser"
   ],
   "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UmbraEngineering/cloak.controller/issues"
+  },
+  "homepage": "https://github.com/UmbraEngineering/cloak.controller",
   "dependencies": {
     "merge-recursive": "0.0.3",
     "promise-es6": "^0.1.0",
