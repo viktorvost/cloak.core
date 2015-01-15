@@ -1,5 +1,5 @@
 
-var conf = require('../conf').module('core');
+var conf = require('../config').module('core');
 
 // 
 // Converts an EE event name into the correct format based on the given
