@@ -1,7 +1,7 @@
 
 var matchesSelector = (process && process.mainModule)
 	? function(elem, selector) {
-		return elem.matchesSelector(selector);
+		return elem.matches(selector);
 	}
 	: require('desandro-matches-selector');
 
