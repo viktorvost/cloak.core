@@ -1,5 +1,9 @@
 
-var matchesSelector = require('desandro-matches-selector');
+var matchesSelector = (process && process.mainModule)
+	? function(elem, selector) {
+		return elem.matchesSelector(selector);
+	}
+	: require('desandro-matches-selector');
 
 // 
 // Returns an object for binding events to the given element

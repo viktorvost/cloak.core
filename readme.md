@@ -37,6 +37,7 @@ var MyView = module.exports = View.extend({
 * [cloak.socketio](https://github.com/UmbraEngineering/cloak.socketio) - Provides a [socket.io](http://socket.io) interface for models based on the [dagger.js](http://www.daggerjs.com) websocket api
 * [cloak.animate](https://github.com/UmbraEngineering/cloak.animate) - Provides animaion methods for controllers and views
 * [cloak.forms](https://github.com/UmbraEngineering/cloak.forms) - Provides an extension to `cloak.view` for easier handling of forms
+* [cloak.nedb](https://github.com/UmbraEngineering/cloak.nedb) - Provides a NeDB (Node Embedded Database) interface for model storage. A faster, more complete local data implementation than `cloak.localstorage` meant for use in local applications (like node-webkit projects)
 
 
 
