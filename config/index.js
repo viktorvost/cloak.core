@@ -23,7 +23,7 @@ exports.module = function(name, defaults) {
 // 
 var ConfigModule = function(name, defaults) {
 	this.name = name;
-	this.config = defaults;
+	this.config = defaults || { };
 };
 
 // 
